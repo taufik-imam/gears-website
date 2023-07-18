@@ -1,3 +1,109 @@
-*{
+* {
     font-family: 'Poppins', sans-serif;
+}
+
+/* nav style here */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+/* banner style  */
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3rem;
+
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 3.25rem;
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+
+.banner-btn {
+    border-radius: 2.5625rem;
+    background: #E02C6D;
+    color: #FFF;
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner-image {
+    background-image: url('../images/Circle\ design.svg');
+    background-size: cover;
+
+
+
+}
+
+.banner-image img {
+    object-fit: cover;
+    width: 100%;
+   
+    
+}
+
+/* media query */
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        text-align: center;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .banner-item {
+        text-align: center;
+    }
+    
+
 }

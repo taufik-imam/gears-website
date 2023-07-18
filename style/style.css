@@ -188,11 +188,39 @@
     font-size: 1rem;
     font-weight: 700;
 }
-.features-btn{
+
+.features-btn {
     background: #E02C6D;
     border: none;
     color: white;
     padding: 0.5rem;
+}
+
+/* footer style */
+.footer {
+    background: #0A0826;
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.footer span {
+    padding: 1.5rem;
+}
+
+.footer p {
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.footer h3 {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+
 }
 
 /* media query */
@@ -232,7 +260,8 @@
     .box-container {
         grid-template-columns: 1fr;
     }
-    .features-container{
+
+    .features-container {
         flex-direction: column-reverse;
     }
 

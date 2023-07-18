@@ -78,6 +78,15 @@
    
     
 }
+/* logo section style  */
+.logo-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 6rem;
+    align-items: center;
+}
 
 /* media query */
 @media screen and (max-width:576px) {
@@ -103,6 +112,10 @@
     }
     .banner-item {
         text-align: center;
+    }
+    .logo-container{
+        flex-wrap: wrap;
+        gap: 20px;
     }
     
 
